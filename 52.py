@@ -1,0 +1,17 @@
+str1="紅豆生南國，春來發幾枝？願君多采擷，此物最相思。"
+list1=list(str1)
+list1.remove(list1[5])
+list1.remove(list1[10])
+list1.remove(list1[15])
+list1.remove(list1[20])
+str2="春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少。"
+list2=list(str2)
+list2.remove(list2[5])
+list2.remove(list2[10])
+list2.remove(list2[15])
+list2.remove(list2[20])
+a=set(list1)
+b=set(list2)
+# print(a)
+# print(b)
+print(a & b)
