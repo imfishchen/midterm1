@@ -1,0 +1,5 @@
+list1=set(list(map(str,input("請輸入A的好友:").split(" "))))
+list2=set(list(map(str,input("請輸入B的好友:").split(" "))))
+#print(type(list1))
+#print(list1)
+print(len(list1 & list2))
